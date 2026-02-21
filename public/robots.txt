@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block internal or system paths if they exist
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+
+Sitemap: https://dripveda.in/sitemap.xml
