@@ -18,8 +18,8 @@ function About() {
           <p className="text-gray-700 mb-4 text-center">
           DripVeda celebrates the simple joy of natural refreshment. Born out of a love for bold fruit flavours and time-honoured spice wisdom, we craft drink premixes that turn everyday hydration into something vibrant, no artificial colours, no cluttered ingredients, just real, nature-backed goodness in every drop. 
           </p>
-          <p className="text-gray-700 text-center">
-          Rip it, mix it, drip it, and enjoy a sip that’s both delicious and purposeful.          </p>
+          {/* <p className="text-gray-700 text-center">
+          Rip it, mix it, drip it, and enjoy a sip that’s both delicious and purposeful.          </p> */}
         </div>
       </div>
     </section>
