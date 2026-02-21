@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 
 const products = [
   {
@@ -33,6 +34,22 @@ const products = [
 
 function Hero() {
   const [activeProduct, setActiveProduct] = useState(products[0]);
+
+
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveProduct((prevProduct) => {
+        const currentIndex = products.findIndex((p) => p.id === prevProduct.id);
+        const nextIndex = (currentIndex + 1) % products.length;
+        return products[nextIndex];
+      });
+    }, 5000); // Change product every 5 seconds
+
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, []);
+
+
 
 
   return (
@@ -70,7 +87,6 @@ function Hero() {
         {products.map((product) => (
           <div
             key={product.id}
-            onClick={() => setActiveIndex(index)}
             className="flex flex-col items-center cursor-pointer"
         >
           
