@@ -37,6 +37,8 @@ function Modal({ onClose }) {
     }
   };
 
+//  this is test message
+
   return (
     <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-50 px-4">
       <div className="bg-white rounded-xl p-6 w-full max-w-md relative">
