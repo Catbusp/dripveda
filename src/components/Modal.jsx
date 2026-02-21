@@ -114,7 +114,7 @@ function Modal({ onClose }) {
               <option value="">Choose an option</option>
               <option value="BEETROOT">BEETROOT</option>
               <option value="BLUEBERRY">BLUEBERRY</option>
-              <option value="LEMON_GINGER">Lemon Ginger</option>
+              <option value="LEMON_GINGER">LEMON GINGER</option>
               <option value="PINEAPPLE">PINEAPPLE</option>
             </select>
           </div>
