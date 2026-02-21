@@ -53,11 +53,11 @@ function Hero() {
       <div className="absolute inset-0 bg-black/10"></div>
 
       {/* Text Content */}
-      <div className="relative z-10 flex flex-col items-center justify-end pb-20 h-full text-center px-6 text-white">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4 transition-all duration-500">
+      <div className="relative z-10 flex flex-col items-center justify-end pb-24 h-full text-center px-6 text-white">
+        <h1 className="text-2xl md:text-5xl font-bold mb-1 transition-all duration-500">
           {activeProduct.title}
         </h1>
-        <p className="text-lg md:text-xl max-w-xl mb-6 transition-all duration-500">
+        <p className="text-[22px] md:text-xl max-w-xl mb-6 transition-all duration-500">
           {activeProduct.description}
         </p>
         {/* <button className="bg-[#86C146] px-6 py-3 rounded-xl font-semibold hover:scale-105 transition">
@@ -84,7 +84,7 @@ function Hero() {
             }`}
           />
 
-<div className={`mt-2 h-[3px] w-10 rounded-full transition-all duration-300 ${activeProduct.id === product.id ? "bg-[#86C146] opacity-100" : "bg-gray-400 opacity-0"}`}
+<div className={`mt-2 h-[6px] w-10 rounded-full transition-all duration-300 ${activeProduct.id === product.id ? "bg-white opacity-100" : "bg-gray-400 opacity-0"}`}
              
             ></div>
 

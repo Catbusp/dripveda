@@ -50,7 +50,9 @@ function Modal({ onClose }) {
           ✕
         </button>
 
-        <h3 className="text-xl font-bold mb-4">Get early access</h3>
+        <h3 className="text-xl font-bold mb-1 ">Get early access</h3>
+        <h3 className="text-sm mb-4 text-gray-600">Limited early access slots available.<br></br>
+        Enter your details to reserve your pre-order.</h3>
 
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">
           
