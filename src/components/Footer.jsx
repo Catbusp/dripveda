@@ -15,7 +15,8 @@ function Footer() {
           <FaInstagram size={24} />
         </a>
         <p className="text-[12px]" >© {new Date().getFullYear()} Your Company. All rights reserved.</p>
-       
+        <p className="text-[12px]" > Phone no. 9650740979 </p>
+       <p className="text-[12px]" > Address: Plot No. J6, FIT, Sector 57, Faridabad, Haryana - 121004</p>
       </div>
     </footer>
   );
